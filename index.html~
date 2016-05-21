@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Flying Dezire</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="css/index.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	 <a class="navbar-brand" href="#myPage">Flying Dezire</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#band">BAND</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Extras</a></li>
+            <li><a href="#">Media</a></li> 
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/col1.JPG" alt="New York" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>B.I.T, Raipur</h3>
+          <p>Insane crowd support,people are so crazy there really enjoyed alot.</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="img/col2.JPG" alt="Chicago" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Pt.R.S.U, Raipur</h3>
+          <p>Thank you, Pandit Ravishankar University- A day we won't forget.</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="img/col3.JPG" alt="Los Angeles" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>I.T.M, Raipur</h3>
+          <p>Even though the traffic was a mess, we had the best time playing at ITM, Raipur!</p>
+        </div>      
+      </div>
+	  
+		
+      <div class="item">
+        <img src="img/col4.JPG" alt="Chicago" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>R.C.E.T, Bhilai</h3>
+          <p>Thank you, RCET Bhilai- Best performance ever.</p>
+        </div>      
+      </div>
+	  
+      <div class="item">
+        <img src="img/col5.JPG" alt="Chicago" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>N.I.T, Raipur</h3>
+          <p>Thank you, NIT Raipur - you guys are really awesome, enjoyed alot.</p>
+        </div>      
+      </div>
+	 
+      <div class="item">
+        <img src="img/col6.JPG" alt="Chicago" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>I.I.M, Raipur</h3>
+          <p>Thank you, IIM Raipur- Hospitality was really good,awesome crowd support.</p>
+        </div>      
+      </div>
+	  
+      <div class="item">
+        <img src="img/col7.JPG" alt="Chicago" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>H.N.L.U, Raipur</h3>
+          <p>Thank you, HNLU Raipur- Nice Arrangement enjoyed alot.</p>
+        </div>      
+      </div>
+	  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!-- Container (The Band Section) -->
+<div id="band" class="container text-center">
+  <h3>THE FLYING DEZIRE BAND</h3>
+  <p><em>We love music!</em></p>
+  <p>We are Flying Dezire, an experimental rockband from the Raipur, Chhattisgarh, India with a 100% self-written repertoire. Our line up is: drums, bass guitar, singer, two guitarist and one keyboardist.
+
+Throughout the years all of us have done different things / styles of music in different bands but none of us ever had the privilege to create and play the music which we wanted to. We always wanted to know how it would be but the situation never came.
+
+we all have almost same kind of taste of music which brings our idea as well as our music to the next level. We all are very passionate about music and having deep enthausiasm. Also to be honest: We all met at the clash of bands playing from different band and after having friendly conversation we decided to work together and do things which we want to do.
+
+and after that we jam together and soon...we started playing in many gig where we had huge crowd support, In our first gig we played about 15-20 minutes which will create some atmosphere in that concert (200-300 persons).
+
+It would be really cool to meet someone who would want to help us out with this so we take guidence from many local bands and develop our skills. To make it easier (or maybe harder) we do not have a clear idea about how to create it or even what it should sound like. The idea in general is that it could start with strings (low / soft Dminor) with piano licks in Dminor + dissonants / raised 7th, going to a climax as where some massive drums will take over and the intro dies out.
+
+We are releasing our debut album soon, stay tuned for more updates.</p>
+  <br>
+  <div class="row">
+    <div class="col-sm-2">
+      <p class="text-center"><strong>Aman</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="img/pro5.JPG" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo" class="collapse">
+        <p>Lead Vocalist</p>
+        <p>Music is not what i do,Its who i am.</p>
+        <p>Member since 2013</p>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <p class="text-center"><strong>Mithilesh</strong></p><br>
+      <a href="#demo2" data-toggle="collapse">
+        <img src="img/pro1.JPG" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo2" class="collapse">
+        <p>Keyboardist</p>
+        <p>I care about writing music and playing my music</p>
+        <p>Member since 2015</p>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <p class="text-center"><strong>Santosh</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="img/pro7.JPG" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>Drummer</p>
+        <p>My music will tell you more about me than i ever will</p>
+        <p>Member since 2013</p>
+      </div>
+    </div>
+	    <div class="col-sm-2">
+      <p class="text-center"><strong>Jay</strong></p><br>
+      <a href="#demo4" data-toggle="collapse">
+        <img src="img/pro6.JPG" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo4" class="collapse">
+        <p>Bassist</p>
+        <p>Good music doesn't have an expiration date</p>
+        <p>Member since 2016</p>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <p class="text-center"><strong>Ekansh</strong></p><br>
+      <a href="#demo5" data-toggle="collapse">
+        <img src="img/pro3.JPG" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo5" class="collapse">
+        <p>Lead Guitarist</p>
+        <p>I can't go a day without listening to music</p>
+        <p>Member since 2016</p>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <p class="text-center"><strong>Ayanangshu</strong></p><br>
+      <a href="#demo6" data-toggle="collapse">
+        <img src="img/pro2.JPG" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo6" class="collapse">
+        <p>Rhythm Guitarist</p>
+        <p>Music knows more about the kind of mood I'm in than i do</p>
+        <p>Member since 2016</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container">
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>We love our fans!</em></p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <p>Fan? Drop a note.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Raipur, CG, India</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +91 9755894431</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: flyingdesireofficial@gmail.com</p>	   
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>	
+    </div>
+  </div>
+  <br>
+  <h3 class="text-center">From The Blog</h3>  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Mithilesh</a></li>
+    <li><a data-toggle="tab" href="#menu1">Aman</a></li>
+    <li><a data-toggle="tab" href="#menu2">Santosh</a></li>
+	<li><a data-toggle="tab" href="#menu5">Jay</a></li>
+	<li><a data-toggle="tab" href="#menu3">Ekansh</a></li>
+	<li><a data-toggle="tab" href="#menu4">Ayanangshu</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h2>Mithilesh Ghritlahere,  &nbsp;&nbsp;   Keyboardist</h2>
+      <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h2>Aman Sen,   &nbsp;&nbsp;  Lead Vocalist</h2>
+      <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h2>Santosh Sethi,   &nbsp;&nbsp;  Drummer</h2>
+      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h2>Ekansh Dewangan,   &nbsp;&nbsp;  Lead Guitarist</h2>
+      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+    </div>
+    <div id="menu4" class="tab-pane fade">
+      <h2>Ayanangshu Chatterjee,  &nbsp;&nbsp; Rhythm Guitarist</h2>
+      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+    </div>
+    <div id="menu5" class="tab-pane fade">
+      <h2>Jay Chauhan,   &nbsp;&nbsp;  Bassist</h2>
+      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Website Designed by <a href="http://www.facebook.com/im_Aj_ankit" data-toggle="tooltip">Ankit Kumar Singh </a></p> 
+</footer>
+
+<script href="js/index2.js">
+</script>
+
+</body>
+</html>
+
